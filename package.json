@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "node ./node_modules/.bin/eslint *.js",
+    "lint": "node ./node_modules/.bin/eslint ../FISHBONE",
+    "fix:lint": "npx eslint --fix ../FISHBONE",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
